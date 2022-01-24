@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/React-CrudApp%20/static/css/main.989fb53c.css",
+    "main.js": "/React-CrudApp%20/static/js/main.87fb99d1.js",
+    "static/js/787.32f317c7.chunk.js": "/React-CrudApp%20/static/js/787.32f317c7.chunk.js",
+    "index.html": "/React-CrudApp%20/index.html",
+    "main.989fb53c.css.map": "/React-CrudApp%20/static/css/main.989fb53c.css.map",
+    "main.87fb99d1.js.map": "/React-CrudApp%20/static/js/main.87fb99d1.js.map",
+    "787.32f317c7.chunk.js.map": "/React-CrudApp%20/static/js/787.32f317c7.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.989fb53c.css",
+    "static/js/main.87fb99d1.js"
+  ]
+}
