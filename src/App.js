@@ -15,6 +15,8 @@ import UpdateStudent from './Components/UpdateStudent';
 
 import Footer from './Footer/Footer';
 // import ButtonAppBar from './NavBarComponent/Nav';
+// import CardList from './CardListComponent/CardList';
+import Home from './HomePage/Home';
 
 
 function App() {
@@ -50,7 +52,7 @@ function App() {
         <Route path="/students/delete/:id" element={<DeleteStudent></DeleteStudent>}></Route> 
         <Route path="/students/add" element={<AddStudent></AddStudent>}></Route>
         <Route path="/students/update/:id"  element={<UpdateStudent></UpdateStudent>}></Route>
-        
+        <Route exact path="/" element={<Home/>} />
       </Routes>
       
       <div className="Foot">

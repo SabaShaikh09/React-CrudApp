@@ -52,22 +52,22 @@ function UpdateStudent() {
                         <tr>
                             <th>Id : </th>
                             {/* <td><input type="number" name="StudId" value={student.studId} onChange={handleChange} /></td> */}
-                            <td><TextField id="standard-basic" label="Standard" variant="standard" type="number" name="StudId" value={student.studId} onChange={handleChange} /></td>
+                            <td><TextField id="standard-basic"  variant="standard" type="number" name="StudId" value={student.studId} onChange={handleChange} /></td>
                         </tr>
                         <tr>
                             <th>Name : </th>
                             {/* <td><input type="text" name="studName" value={student.studName} onChange={handleChange} /></td> */}
-                            <td><TextField id="standard-basic" label="Standard" variant="standard" type="text" name="studName" value={student.studName} onChange={handleChange} /></td>
+                            <td><TextField id="standard-basic" variant="standard" type="text" name="studName" value={student.studName} onChange={handleChange} /></td>
                         </tr>
                         <tr>
                             <th>Department : </th>
                             {/* <td><input type="text" name="studDepartment" value={student.studDepartment} onChange={handleChange} /></td> */}
-                            <td><TextField id="standard-basic" label="Standard" variant="standard" type="text" name="studDepartment" value={student.studDepartment} onChange={handleChange} /></td>
+                            <td><TextField id="standard-basic"  variant="standard" type="text" name="studDepartment" value={student.studDepartment} onChange={handleChange} /></td>
                         </tr>
                         <tr>
                             <th>Year : </th>
                             {/* <td><input type="text" name="studYear" value={student.studYear} onChange={handleChange} /></td> */}
-                            <td><TextField id="standard-basic" label="Standard" variant="standard" type="text" name="studYear" value={student.studYear} onChange={handleChange}  /></td>
+                            <td><TextField id="standard-basic"  variant="standard" type="text" name="studYear" value={student.studYear} onChange={handleChange}  /></td>
                         </tr>
                         <tr>
                             <th></th>

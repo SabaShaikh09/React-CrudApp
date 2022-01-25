@@ -15,7 +15,10 @@ export const StudReducer=(state=[...studImpl.studArray],action)=>{
                         state = studImpl.addStudent(action.payload);
                         return state;
                     }
-               
+               case 'SEARCHSTUDENT':{
+                       state = studImpl.searchStudent(action.payload);
+                       return state;
+               }
                 
                 default: return state;
         }

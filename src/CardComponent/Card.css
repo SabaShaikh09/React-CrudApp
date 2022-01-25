@@ -1,0 +1,17 @@
+.myCard{
+    background-color: lightcoral;
+    border: 2px solid lightgreen;
+    padding: 10px;
+}
+.myCard:Hover{
+    background-color: lightslategray;
+    border: 4px solid lightskyblue;
+}
+ img{
+    width:350px;
+    height:200px;
+}
+.Imagee> img:hover{
+    opacity: 0.8;
+    padding: 5px;
+} 

@@ -1,4 +1,4 @@
-import './Footer.css';
+//import './Footer.css';
 
 import InstagramIcon from '@mui/icons-material/Instagram';
 import FacebookIcon from '@mui/icons-material/Facebook';
@@ -8,30 +8,51 @@ import CallIcon from '@mui/icons-material/Call';
 
 import { Typography } from '@material-ui/core';
 
+
+const foot={
+    backgroundColor: 'brown',
+    border: '4px solid black',
+    textAlign:' center',
+    padding: '5px',
+    color:'white',
+    fontFamily: 'Island Moments',
+    height:'300px',
+    width:'100%'
+}
+const Icons1={
+    marginLeft:' 35%',
+    marginRight:'10%'
+}
+const Icons={
+    padding:'10px',
+    color:' white'
+}
+
 function Footer(){
     return(
-       <footer className="Footer">
-            <Typography variant="h3" align="center" color="primary">NeoSoft Technologies</Typography>
-           {/* <h2 style={{'text-transform':'uppercase','margin-left':'40%','color':'gray'}}>NeoSoft Student</h2> */}
-           <span style={{'color':'gray','margin-left':'40%'}}>  Copywrite @SabaShaikh @2022 
-           </span>
-              <br></br>
-         
-            <div className="Icons">
-            <div className="Icons1">
-            <p>@<AttachEmailIcon></AttachEmailIcon>Conact Email</p>
-                <p>@<CallIcon></CallIcon>91-233435667</p>
+       
+    
+     //  <footer className="foot">
+
+     <footer style={foot}>
+
+        <p>Author: Neosoft TEchnologies
+        <a href="mailto:hege@example.com">saba.shaikh@gmail.com</a></p>
+        <p>@Copyright 2022 Saba Shaikh</p>
+        <div style={Icons}>
+            <div style={Icons1}>
+            <p>@<AttachEmailIcon></AttachEmailIcon>Contact Emailid</p>
+                <p>@<CallIcon></CallIcon>022-234252688</p>
             </div>
-            <div className="Icons2">
-            <p>@<InstagramIcon></InstagramIcon> Follow us </p>
-                <p>@<FacebookIcon></FacebookIcon>follow us</p>
+            <div style={Icons1}>
+            <p>@<InstagramIcon></InstagramIcon> Follow us on  </p>
+                <p>@<FacebookIcon></FacebookIcon>follow us on</p>
             </div>
                 
                 
             </div>
-           
-          
-       </footer>
+       
+        </footer>
     );
 }
 
