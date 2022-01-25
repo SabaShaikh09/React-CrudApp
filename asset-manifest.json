@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/React-CrudApp%20/static/css/main.9a28956f.css",
-    "main.js": "/React-CrudApp%20/static/js/main.8db777df.js",
-    "static/js/787.32f317c7.chunk.js": "/React-CrudApp%20/static/js/787.32f317c7.chunk.js",
-    "index.html": "/React-CrudApp%20/index.html",
-    "main.9a28956f.css.map": "/React-CrudApp%20/static/css/main.9a28956f.css.map",
-    "main.8db777df.js.map": "/React-CrudApp%20/static/js/main.8db777df.js.map",
-    "787.32f317c7.chunk.js.map": "/React-CrudApp%20/static/js/787.32f317c7.chunk.js.map"
+    "main.css": "/React-CrudApp/static/css/main.9a28956f.css",
+    "main.js": "/React-CrudApp/static/js/main.8762b2d4.js",
+    "static/js/787.32f317c7.chunk.js": "/React-CrudApp/static/js/787.32f317c7.chunk.js",
+    "index.html": "/React-CrudApp/index.html",
+    "main.9a28956f.css.map": "/React-CrudApp/static/css/main.9a28956f.css.map",
+    "main.8762b2d4.js.map": "/React-CrudApp/static/js/main.8762b2d4.js.map",
+    "787.32f317c7.chunk.js.map": "/React-CrudApp/static/js/787.32f317c7.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.9a28956f.css",
-    "static/js/main.8db777df.js"
+    "static/js/main.8762b2d4.js"
   ]
 }
